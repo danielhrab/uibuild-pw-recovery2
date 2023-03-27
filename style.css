@@ -1,0 +1,68 @@
+body {
+  background-color: #e6e6e6;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-recovery {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #138073;
+}
+
+@media only screen and (max-width: 520px) {
+  .password-recovery {
+    font-size: 24px;
+  }
+}
+
+.security-question {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #138073;
+  background-color: #FFF;
+  max-width: 520px;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.question-text {
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 520px) {
+  .security-question {
+    width: 100%;
+  }
+}
+
+input[type="text"] {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #b3b3b3;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 480px;
+  height: 64px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 520px) {
+  input[type="text"] {
+    width: calc(100% - 40px);
+    margin: 20px;
+  }
+}
+
+
+
+
